@@ -1,0 +1,16 @@
+Dendrogram:
+Best model: Balance of dengrogram is the only measure that we have.
+K-means clustering: First start with predefined clusters, finds distances, reassigns datapoints, and does this until we get final perfect output
+In Heirarchical clustering we find distances first, and for cluster to datapoint distances we use linkage function concept and find distance and draw dengrogram
+
+
+
+
+
+TODO: to_csv: try using path as a parameter
+
+a
+b
+c
+a
+b
