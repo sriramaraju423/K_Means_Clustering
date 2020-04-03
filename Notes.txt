@@ -1,16 +1,4 @@
-Dendrogram:
-Best model: Balance of dengrogram is the only measure that we have.
-K-means clustering: First start with predefined clusters, finds distances, reassigns datapoints, and does this until we get final perfect output
-In Heirarchical clustering we find distances first, and for cluster to datapoint distances we use linkage function concept and find distance and draw dengrogram
-
-
-
-
-
-TODO: to_csv: try using path as a parameter
-
-a
-b
-c
-a
-b
+Find optimum k value instead of sqrt(n/2): Which is elbow curve. Basically we look for a massive drop, excluding the initial drop
+Total sum of squres is the measure that we get before clustering even starts. Hence this value doesn't change irrespective of no of clusters.
+Higher the between ss , the more dispersion is b/w clusters
+Choosing optimum k value is so subjective.
